@@ -1,8 +1,10 @@
 import React, {Component} from 'react'
 import PropTypes from 'prop-types'
+import { Typography} from '@material-ui/core'
+import CommentIcon from '@material-ui/icons/Comment'
 
-import CommentItem from '../comment-item/comment-item'
-import './commentList.css'
+import CommentItem from './CommentItem'
+
 
 export default class CommentList extends Component{
   //加上static给组件类添加，否则给组件对象添加
@@ -11,14 +13,13 @@ export default class CommentList extends Component{
     const {comments,deleteComment} = this.props
     const display = comments.length === 0 ? 'block' : 'none'
     return(
-      <div className="col-md-8">
-        <h3 className="reply">Reply comment：</h3>
-        <h2 style={{display}}>There is no comment available, please click the left side to add！！！</h2>
-        <ul className="list-group">
+      <div >
+        <Typography variant="h6" component = 'h6'><CommentIcon color='secondary'/>&nbsp;Comment List</Typography>
+        <h2 style={{display}}>There is no comment available, please click the below comment section to add！！！</h2>
+
           {
             comments.map((comment, index) => <CommentItem comment={comment} key={index}/>)
           }
-        </ul>
       </div>
     )
   }

@@ -1,8 +1,18 @@
 
 import React from 'react'
-import ReactDOM from 'react-dom'
-import App from './components/app/app'
+import {render} from 'react-dom'
+import {Provider} from 'react-redux'
+import {BrowserRouter} from 'react-router-dom'
+import App from './components/App'
+import './index.css'
 
 
-ReactDOM.render(<App />, document.getElementById('root'));
 
+render(
+
+    <BrowserRouter>
+      <App/>
+    </BrowserRouter>,
+
+  document.getElementById('root')
+)
