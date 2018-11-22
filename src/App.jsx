@@ -28,8 +28,8 @@ import teal from "@material-ui/core/colors/teal"
 import pink from "@material-ui/core/colors/pink"
 import {isWidthDown} from '@material-ui/core/withWidth';
 
-import HomePage from "../pages/HomePage"
-import CommentPage from "../pages/CommentPage"
+import HomePage from "./pages/HomePage"
+import CommentPage from "./pages/CommentPage"
 
 
 const drawerWidth = 240
@@ -263,7 +263,7 @@ class App extends React.Component {
             <div>
               <Switch>
                 <Route exact path='/' component={HomePage}/>
-                <Route exact path='/todo' component={CommentPage}/>
+                <Route exact path='/comment' component={CommentPage}/>
                 <Route render={(props) => {
                   return (<h3>Page Not Found</h3>)
                 }}/>

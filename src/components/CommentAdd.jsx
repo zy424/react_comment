@@ -1,15 +1,14 @@
 import React, {Component} from 'react'
 import PropTypes from 'prop-types'
+import {connect} from 'react-redux'
+import {addComment} from '../actions/Actions'
 import {TextField, Button, Typography,} from '@material-ui/core'
 import SendIcon from '@material-ui/icons/Send'
 import CreateIcon from '@material-ui/icons/Create'
 
 
 class CommentAdd extends Component{
-  static propTypes = {
-    addComment: PropTypes.func.isRequired,
-    classes: PropTypes.object.isRequired,
-  }
+
   state = {
     username: '',
     content: ''
@@ -37,7 +36,7 @@ class CommentAdd extends Component{
   render(){
     const {username, content} = this.state
     return(
-      <paper>
+      <div>
       <Typography variant="h6" component = 'h6'><CreateIcon color='secondary'/>&nbsp;Add Comment</Typography>
       <form>
         <TextField
@@ -74,11 +73,16 @@ class CommentAdd extends Component{
         </Button>
         </div>
       </form>
-      </paper>
+      </div>
     )
   }
 }
 
+CommentAdd.propTypes = {
+  addComment: PropTypes.func.isRequired,
+}
 
-
-export default CommentAdd
+export default connect(
+  null,
+  {addComment}
+)(CommentAdd)

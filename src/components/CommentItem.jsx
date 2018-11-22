@@ -1,21 +1,17 @@
 import React, {Component} from 'react'
 import PropTypes from 'prop-types'
-import PubSub from 'pubsub-js'
+import {connect} from 'react-redux'
 import avatar from '../assets/avatar.jpg'
-
 import {ListItem,List,IconButton,ListItemText,ListItemSecondaryAction, Avatar} from '@material-ui/core'
 import DeleteIcon from '@material-ui/icons/Delete'
+import {deleteComment} from '../actions/Actions'
 
 
-export default class CommentItem extends Component{
-  static propTypes = {
-    comment: PropTypes.object.isRequired,
-    index:PropTypes.number.isRequired
-  }
+class CommentItem extends Component{
   handleClick = ()=>{
-    const {comment,index} = this.props
+    const {comment,deleteComment,index} = this.props
     if(window.confirm(`Are you sure to delete ${comment.username}'s comment?`)) {
-      PubSub.publish('deleteComment',index)
+      deleteComment(index)
     }
   }
   render(){
@@ -36,5 +32,14 @@ export default class CommentItem extends Component{
         </ListItem>
       </List>
     )
-  }
+  }}
+
+CommentItem.propTypes = {
+  comment: PropTypes.object.isRequired,
+  deleteComment: PropTypes.func.isRequired,
+  index:PropTypes.number.isRequired
 }
+export default connect(
+  null,
+  {deleteComment}
+)(CommentItem)

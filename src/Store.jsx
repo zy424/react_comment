@@ -1,7 +1,7 @@
 import createBrowserHistory from 'history/createBrowserHistory';
 import logger from 'redux-logger';
 import { createStore, applyMiddleware, compose } from 'redux';
-import reducers from './reducers';
+import Reducers from './reducers/Reducers';
 
 // Create a history
 const history = createBrowserHistory();
@@ -14,7 +14,7 @@ middlewares.push(logger);
 
 // Create store
 const store = createStore(
-  reducers,
+  Reducers,
   compose(
     applyMiddleware(...middlewares),
   ),
