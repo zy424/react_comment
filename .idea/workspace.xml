@@ -2,34 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0e58352-e808-4dfd-b6dd-2d0b62e5a16a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/actions/ActionTypes.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/actions/Actions.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/CommentForm.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reducers/Comment.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reducers/Reducers.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src_bak/actions/ActionTypes.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src_bak/actions/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src_bak/assets/avatar.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src_bak/assets/comment.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src_bak/components/CommentAdd.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src_bak/components/CommentItem.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src_bak/components/CommentList.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src_bak/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src_bak/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src_bak/pages/CommentPage.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src_bak/pages/HomePage.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src_bak/store.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src_bak/components/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CommentAdd.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CommentAdd.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CommentItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CommentItem.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CommentList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CommentList.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/CommentPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/CommentPage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Store.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Store.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Store.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/actions/ActionTypes.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/ActionTypes.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/actions/Actions.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/Actions.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/CommentForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/CommentForm.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/Comment.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/Comment.jsx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -46,22 +26,10 @@
       <file leaf-file-name="Store.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Store.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="39">
-              <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+            <state relative-caret-position="473">
+              <caret line="24" column="34" lean-forward="true" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
               <folding>
-                <element signature="e#0#64#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Comment.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/reducers/Comment.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#0#63#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -70,10 +38,22 @@
       <file leaf-file-name="CommentForm.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/containers/CommentForm.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="494">
+              <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Reducers.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/reducers/Reducers.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="203">
+              <caret line="7" column="1" selection-start-line="4" selection-start-column="31" selection-end-line="7" selection-end-column="1" />
+              <folding>
+                <element signature="e#0#37#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -91,11 +71,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CommentItem.jsx" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CommentItem.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/CommentItem.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="41" column="15" selection-start-line="41" selection-start-column="15" selection-end-line="41" selection-end-column="15" />
+            <state relative-caret-position="1061">
+              <caret line="44" column="14" selection-start-line="44" selection-start-column="14" selection-end-line="44" selection-end-column="14" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
@@ -106,11 +86,41 @@
       <file leaf-file-name="CommentPage.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/CommentPage.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
+            <state relative-caret-position="1241">
               <caret line="49" column="25" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="25" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Comment.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/reducers/Comment.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Actions.jsx" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/actions/Actions.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="222">
+              <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ActionTypes.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/actions/ActionTypes.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="58">
+              <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -146,21 +156,21 @@
         <option value="$PROJECT_DIR$/src/pages/HomePage.jsx" />
         <option value="$PROJECT_DIR$/src/store.jsx" />
         <option value="$PROJECT_DIR$/src/index.css" />
-        <option value="$PROJECT_DIR$/src/actions/ActionTypes.jsx" />
         <option value="$PROJECT_DIR$/src/actions/index.jsx" />
         <option value="$PROJECT_DIR$/src/components/App.jsx" />
         <option value="$PROJECT_DIR$/src/App.jsx" />
         <option value="$PROJECT_DIR$/src/containers/Comment.jsx" />
-        <option value="$PROJECT_DIR$/src/reducers/Comment.jsx" />
         <option value="$PROJECT_DIR$/src/reducers/Reducers.jsx" />
-        <option value="$PROJECT_DIR$/src/Store.jsx" />
         <option value="$PROJECT_DIR$/src/index.js" />
-        <option value="$PROJECT_DIR$/src/actions/Actions.jsx" />
         <option value="$PROJECT_DIR$/src/components/CommentAdd.jsx" />
         <option value="$PROJECT_DIR$/src/pages/CommentPage.jsx" />
-        <option value="$PROJECT_DIR$/src/containers/CommentForm.jsx" />
         <option value="$PROJECT_DIR$/src/components/CommentItem.jsx" />
         <option value="$PROJECT_DIR$/src/components/CommentList.jsx" />
+        <option value="$PROJECT_DIR$/src/actions/ActionTypes.jsx" />
+        <option value="$PROJECT_DIR$/src/reducers/Comment.jsx" />
+        <option value="$PROJECT_DIR$/src/containers/CommentForm.jsx" />
+        <option value="$PROJECT_DIR$/src/Store.jsx" />
+        <option value="$PROJECT_DIR$/src/actions/Actions.jsx" />
       </list>
     </option>
   </component>
@@ -238,17 +248,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="reducers" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="react_comment" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react_comment" type="462c0819:PsiDirectoryNode" />
-              <item name="src_bak" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react_comment" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react_comment" type="462c0819:PsiDirectoryNode" />
-              <item name="src_bak" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -303,12 +302,12 @@
       <option name="presentableId" value="Default" />
       <updated>1542532746058</updated>
       <workItem from="1542532747772" duration="9676000" />
-      <workItem from="1542684316763" duration="25255000" />
+      <workItem from="1542684316763" duration="28918000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34931000" />
+    <option name="totallyTimeSpent" value="38594000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="800" extended-state="0" />
@@ -465,13 +464,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/actions/ActionTypes.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="1" column="46" selection-start-line="1" selection-start-column="46" selection-end-line="1" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src_bak/pages/HomePage.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1" />
@@ -497,67 +489,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/CommentForm.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/reducers/Comment.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Store.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="39">
-          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#64#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/reducers/Reducers.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="7" column="1" lean-forward="true" selection-start-line="4" selection-start-column="31" selection-end-line="7" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/actions/Actions.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/CommentAdd.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1902">
           <caret line="75" column="11" selection-start-line="75" selection-start-column="11" selection-end-line="75" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/CommentPage.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="49" column="25" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="25" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
           </folding>
@@ -576,11 +511,75 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/CommentItem.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="41" column="15" selection-start-line="41" selection-start-column="15" selection-end-line="41" selection-end-column="15" />
+        <state relative-caret-position="1061">
+          <caret line="44" column="14" selection-start-line="44" selection-start-column="14" selection-end-line="44" selection-end-column="14" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/CommentPage.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1241">
+          <caret line="49" column="25" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actions/ActionTypes.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/Comment.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/Reducers.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="7" column="1" selection-start-line="4" selection-start-column="31" selection-end-line="7" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Store.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="24" column="34" lean-forward="true" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/CommentForm.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actions/Actions.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
         </state>
       </provider>
     </entry>

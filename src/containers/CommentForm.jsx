@@ -5,7 +5,7 @@ import {connect} from 'react-redux'
 
 import CommentAdd from '../components/CommentAdd'
 import CommentList from '../components/CommentList'
-import {addComment, deleteComment} from '../actions/Actions'
+import {addComment, deleteComment, getComments} from '../actions/Actions'
 
 
 class CommentForm extends Component{
@@ -13,6 +13,10 @@ class CommentForm extends Component{
     comments:PropTypes.array.isRequired,
     addComment:PropTypes.func.isRequired,
     deleteComment:PropTypes.func.isRequired,
+    getComments:PropTypes.func.isRequired,
+  }
+  componentDidMount () {
+    this.props.getComments()
   }
   render(){
     const {comments, addComment, deleteComment} = this.props
@@ -34,5 +38,5 @@ class CommentForm extends Component{
 
 export default connect(
   state => ({comments:state.comments}),
-  {addComment,deleteComment}
+  {addComment,deleteComment, getComments}
 )(CommentForm)
