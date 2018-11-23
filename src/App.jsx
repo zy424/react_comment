@@ -172,10 +172,10 @@ class App extends React.Component {
                 noWrap={!this.isSmartphone}
                 className={classes.title}
               >
-                Built Users Comment Module with React, Redux and Material UI
+                Built Users Comment Module with React, Redux, Redux-thunk，and Material UI
               </Typography>
               <IconButton color="inherit">
-                <Badge badgeContent={2} color="secondary">
+                <Badge badgeContent={this.props.comments.length} color="secondary">
                   <NotificationsIcon/>
                 </Badge>
               </IconButton>
@@ -278,7 +278,6 @@ class App extends React.Component {
 
 App.propTypes = {
   classes: PropTypes.object.isRequired,
+  comments:PropTypes.array.isRequired
 }
-
-
-export default (withStyles(styles)(App))
+export default withRouter(connect(state=>({comments:state.comments}))(withStyles(styles)(App)))
