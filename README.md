@@ -25,7 +25,7 @@ First ensure Webpack is installed globally.<br>
 
 ### Clone the project:
 
-`git clone https://github.com/zy424/react-todo.git`
+`git clone https://github.com/zy424/react-comment.git`
 
 ### Install dependencies:
 
