@@ -172,7 +172,7 @@ class App extends React.Component {
                 noWrap={!this.isSmartphone}
                 className={classes.title}
               >
-                Built Users Comment Module with React, Redux, Redux-thunk，and Material UI
+                Built Users Comment Module with React, Redux, Redux-thunk and Material UI
               </Typography>
               <IconButton color="inherit">
                 <Badge badgeContent={this.props.comments.length} color="secondary">
